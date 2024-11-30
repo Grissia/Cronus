@@ -111,4 +111,8 @@ def cronus_shellcode_shell(arch):
 
 if __name__ == "__main__":
     test = cronus_shellcode_shell("amd64")
+    print("=========== Shellcode Generator ==========")
+    print("Here is the shellcode for spawning a shell:\n")
     print(test)
+    print()
+    print("==========================================")
